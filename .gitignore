@@ -1,0 +1,35 @@
+# Ignorar dependencias de Node.js (por si accidentalmente se ejecuta `npm install` en la raíz)
+node_modules/
+
+# Ignorar archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar logs generales
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignorar variables de entorno globales
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignorar cache y archivos temporales
+tmp/
+temp/
+.cache/
+dist/
+build/
+
+# Ignorar configuración de editores de código
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
